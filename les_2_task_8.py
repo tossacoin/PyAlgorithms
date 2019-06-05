@@ -8,7 +8,7 @@ def count_digit(curnum, dig):
     k=0;
 #    curnum = num;
 #    i = 1;
-    if curnum ==0 and dig = 0:
+    if curnum ==0 and dig == 0:
         k=1;
     while curnum!=0:
         temp = round(curnum % (10));
