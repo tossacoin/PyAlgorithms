@@ -3,17 +3,17 @@
 # Количество вводимых чисел и цифра,
 # которую необходимо посчитать, задаются вводом с клавиатуры.
 
-def count_digit(num, dig):
+def count_digit(curnum, dig):
 
     k=0;
-    curnum = num;
-    i = 1;
+#    curnum = num;
+#    i = 1;
     while curnum!=0:
         temp = round(curnum % (10));
         if temp == dig:
            k=k+1;
         curnum = (curnum - (curnum % 10))/10;
-        i = i + 1;
+ #       i = i + 1;
 
     return k;
 
